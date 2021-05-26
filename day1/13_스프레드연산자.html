@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+    <script>
+        const arr=['강아지','토끼','고양이','염소']
+        const arr1 = arr.concat() 
+        const arr2 = [...arr]
+        console.log( arr1 ) 
+        console.log( arr2 ) 
+        console.log( '--------------' ) 
+        const arr3 = arr.concat('도마뱀','말') 
+        const arr4 = [...arr,'조랑말','개구리']
+        console.log( arr3 ) 
+        console.log( arr4 ) 
+        console.log( '--------------' )
+
+        const dog = { name:'치와와', age:2, sex:'여'}
+        //...객체명:복사 , 키:값 , 키:값 - 해당키값을 변경
+        const dog1 = {...dog , name:'이젠', age:10 }
+        console.log( dog1 )
+    </script>  
+</head>
+<body>
+    
+</body>
+</html>

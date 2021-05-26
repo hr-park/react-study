@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>find</title>
+    <script>
+        const arr  =[10,20,30,40,50,60,70]
+        const data = [
+            {id:1, name:'홍길동',age:30},
+            {id:2, name:'강호동',age:20},
+            {id:3, name:'유재석',age:40},
+            {id:4, name:'이승기',age:10},
+            {id:5, name:'이효리',age:25},
+        ]
+        //배열.filter( 변수 => 조건 ) : []
+        //배열.find( 변수 => 조건 ) : 값 1개만  
+        const re1 = arr.find( item => item > 30  )
+        console.log( re1 )
+
+        const re2 = arr.find( item => item === 20 )
+        console.log( re2 )
+
+        const re3 = data.find( item => item.id === 3 )
+        console.log( re3 )
+
+    </script>  
+</head>
+<body>
+    
+</body>
+</html>

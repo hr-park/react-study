@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>검색</title>
+    <script>
+        const arr = [
+            '고구마','감자','사탕','고기','고단백','수박'
+        ]
+        const txt = '고'
+        const result = arr.filter( item => item.indexOf(txt) !== -1 )
+        console.log( result )
+
+        const data = [
+            {name:'운동을 하다'},
+            {name:'저녁을 먹다'},
+            {name:'시장을 보다'},
+            {name:'밥을 하다'},
+            {name:'김치전을 하다'},
+        ]
+        const txt1 = '하다'
+        const result1 = data.filter( item => item.name.indexOf(txt1) !== -1 )
+        console.log( result1 )
+        
+    </script>  
+</head>
+<body>
+    
+</body>
+</html>

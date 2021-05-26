@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+    <script>
+        const dog = { 
+            name:'치치와',
+            age : 3 ,
+            sex : '남'
+        }
+        console.log( dog.name, dog.age , dog.sex )
+        console.log( '--------------------------' )
+        // 비구조할당 
+        const {name, age, sex } = dog 
+        console.log( name , age , sex )
+
+        const data ={a:10 , b:30 , c:100}
+        //data.a ,data.b 
+        const {a, b , c } = data 
+        console.log( a , b, c)
+
+    </script>  
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+    <script>
+        const arr1 =[10,20,30,40,50,60]
+        /*
+        for( let i = 0 ; i< arr1.length ; i++) {
+            console.log( i )
+        }
+        */
+       /*
+       for( let item of arr1 ){
+           console.log( item )
+       }
+       */
+      /*
+       for( let item in arr1 ){
+           console.log( item )
+       }
+       */
+
+       arr1.map( (item , index) => {
+           return ( console.log(item , index ))
+       })
+       console.log('--------------------')
+       arr1.map( (item, index) => {
+           console.log( item, index )
+       })
+       console.log('--------------------')
+
+       arr1.map( (item, index) => console.log(item,index))
+
+
+    </script>  
+</head>
+<body>
+    1. 함수영역에서 for문 가능하다 
+       하지만 map 추천한다 
+    
+    2. react JSX 영역에서는 for 사용할수 없다 
+        map 
+</body>
+</html>

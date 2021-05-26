@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title> test </title>
+<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+</head>
+<body>
+    <!-- 실제 dom  -->
+<div id="root" >화면에보일부분</div>
+<script type="text/babel">
+//값처리
+//  const el = React.createElement('요소','속성','값')
+ const el = React.createElement('h1',{},'제목입니다.')
+ const dom = document.querySelector('#root')
+ ReactDOM.render( el , dom )
+//  render : 화면에 그려줌 
+
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+    <script>
+        const done1 = true 
+        const done2 = undefined
+
+        const result1 = done1 === true ? '참':'거짓'
+        console.log( result1 )
+
+        const result2 = done1 && '나는 참'
+        console.log( result2 )
+
+        const result3  = done2 || '나는 거짓'
+        console.log( result3 )
+
+    </script>  
+</head>
+<body>
+    1. 함수영역안에는 if/ for 모두 사용가능하다 
+        ==  같다 
+
+    단
+    react jsx영역안에서는 사용할수없다 
+    삼항연산자 , 
+    (조건) ? '참':'거짓'
+    같다  : === 
+
+    조건 || '결과' - false나 값이 존재하지않을때 
+    조건 && 참의결과
+    
+    다중 if문 처럼 사용가능하다 
+    조건1 && 결과1
+    조건2 && 결과2
+    조건3 && 결과3
+    조건4 && 결과4
+</body>
+</html>
