@@ -1,6 +1,6 @@
 <b>[day2]</b><br>
 자료는<br>
-react-study/day2/src/components/
+src/components/
 안에 두었습니다.
 <br><br><br>
 <b>수업내용</b><br>
