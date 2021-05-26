@@ -1,0 +1,9 @@
+.Test16 { width: 600px; margin:10px auto;}
+.Test16 table{ width: 100%; border-collapse: collapse; }
+.Test16 table .id { width:15% }
+.Test16 table .name { width:20% }
+.Test16 table .age { width:20%}
+.Test16 table .addr {width:20% }
+.Test16 table .done { }
+.Test16 table th , .Test16 table td  { height: 45px; text-align: center; border-bottom: 1px solid #dcdcdc; }
+.Test16 table  thead tr th { border-top: 3px solid #000;}
