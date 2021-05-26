@@ -1,7 +1,7 @@
 <b>[day2]</b><br>
-자료는<br>
-src/components/
-안에 두었습니다.
+작업한 소스는<br>
+src/components/<br>
+위 경로에 있습니다.
 <br><br><br>
 <b>수업내용</b><br>
 컴포넌트 생성<br>
