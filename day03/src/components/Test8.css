@@ -1,0 +1,8 @@
+.wrap {
+    width: 100%; height: 100%; position: absolute; left: 0; top: 0;
+    padding: 50px; box-sizing: border-box;
+}
+.pink { background: pink;}
+.tomato { background: tomato;}
+h2 { font-size: 35px; }
+button { padding: 15px 20px;}
