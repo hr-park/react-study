@@ -1,0 +1,9 @@
+.con-box { width: 1000px; margin: 0 auto; display: flex}
+.con-box article:nth-child(1){ width: 600px; }
+.con-box article:nth-child(1) > img { width: 600px; }
+.con-box article:nth-child(1) ul { display: flex; flex-wrap: wrap; }
+.con-box article:nth-child(1) ul li { cursor: pointer;}
+.con-box article:nth-child(1) ul li img { width: 120px;}
+.con-box article:nth-child(2){ width: 400px; background: beige; padding: 30px;}
+.con-box article:nth-child(2) h3 { font-size: 25px; margin-bottom: 15px; }
+.con-box article:nth-child(2) p { font-size: 18px;}

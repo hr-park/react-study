@@ -1,0 +1,11 @@
+.wrap { width: 1200px;  margin: auto;}
+.wrap h1 { font-size: 50px; text-align: center; padding:30px 0}
+.wrap .menu { text-align: center; } 
+.wrap .menu button { padding:15px 45px; background: #000; color:#fff; margin-right: 15px; border:none; cursor: pointer;}
+
+.wrap .list { display: flex; flex-wrap: wrap; margin-top: 50px;}
+.wrap .list li { width: 350px;  margin-right: 20px; margin-bottom: 25px; border: 1px solid #000; padding: 15px; }
+.wrap .list li:nth-child(3n) { margin-right: 0;}
+.wrap .list li img {width: 350px;}
+.wrap .list li h3 {font-size: 25px; color:tomato; margin-right: 10px; margin-bottom: 15px;}
+.wrap .list li p {margin-bottom: 5px;}
